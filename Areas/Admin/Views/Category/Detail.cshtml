@@ -1,0 +1,14 @@
+﻿@model Category
+<div class="row">
+    <div class="col-12">
+        <h1>@Model.Name</h1>
+        <div>
+            @Html.Raw(Model.Description)
+        </div>
+        <div>
+            <a asp-action="Index" class="btn btn-inverse-success">Go Back</a>
+        </div>
+
+    </div>
+   
+</div>
